@@ -12,11 +12,11 @@
     <a-scene hit-test-system="reticle: #reticle; target: #bulbasaur" 
              webxr="requiredFeatures: hit-test, local-floor;">
       <a-assets>
-        <a-asset-item id="bulbasaur-model" src="/bulbasaur/model.gltf"></a-asset-item>
+        <a-asset-item id="bulbasaur-model" src="/bulbasaur/scene.gltf"></a-asset-item>
       </a-assets>
 
       <a-entity id="bulbasaur" >
-        <a-gltf-model position="0 0 0.2" scale="0.2 0.2 0.2" src="#bulbasaur-model"></a-gltf-model>
+        <a-gltf-model position="0 0 0.2" scale="0.01 0.01 0.01" src="#bulbasaur-model"></a-gltf-model>
       </a-entity>
 
       <a-entity id="reticle" >
